@@ -1,0 +1,1778 @@
+
+Call:
+C5.0.default(x = train_dtm, y = train_class)
+
+
+C5.0 [Release 2.07 GPL Edition]  	Sun Sep 25 14:10:14 2016
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 18410 cases (2057 attributes) from undefined.data
+
+Decision tree:
+
+charges = Yes: PPh 4 0,1 (33)
+charges = No:
+:...tempat = Yes:
+    :...2015 = No: PPh 4 0,1 (3/1)
+    :   2015 = Yes: PPh 15 0,012 (4)
+    tempat = No:
+    :...hoc151074 = Yes: PPh 4 0,02 (7)
+        hoc151074 = No:
+        :...hoc130911 = Yes: PPh 4 0,02 (5)
+            hoc130911 = No:
+            :...hoc151089 = Yes: PPh 4 0,02 (5)
+                hoc151089 = No:
+                :...motorcycle = Yes: PPh 4 0,1 (5)
+                    motorcycle = No:
+                    :...overtime = Yes: PPh 4 0,1 (5)
+                        overtime = No:
+                        :...space = Yes: PPh 4 0,1 (4)
+                            space = No:
+                            :...dibayarkan = Yes: PPh 23 0,04 (5)
+                                dibayarkan = No:
+                                :...hoc131476 = Yes: PPh 4 0,02 (8/2)
+                                    hoc131476 = No:
+                                    :...pesta = Yes:
+                                        :...pengadaan = No: PPh 4 0,25 (4)
+                                        :   pengadaan = Yes: PPh 22 0,015 (4/1)
+                                        pesta = No:
+                                        :...book = Yes: PPh 26 0,1 (5/3)
+                                            book = No:
+                                            :...akbar = Yes: PPh 23 0,04 (5/1)
+                                                akbar = No:
+                                                :...software = Yes: [S1]
+                                                    software = No: [S2]
+
+SubTree [S1]
+
+residential = Yes: PPh 22 0,015 (5)
+residential = No:
+:...pembayaran = Yes: PPh 22 0,015 (2)
+    pembayaran = No:
+    :...campaign = Yes: PPh 23 0,02 (2)
+        campaign = No:
+        :...hardware = Yes: PPh 23 0,02 (2)
+            hardware = No:
+            :...license = Yes: PPh 26 0,1 (2/1)
+                license = No:
+                :...and = Yes: PPh 23 0,02 (4/2)
+                    and = No:
+                    :...ehog15110381 = Yes: PPh 26 0 (12)
+                        ehog15110381 = No:
+                        :...ehog15090361 = Yes: PPh 26 0 (11)
+                            ehog15090361 = No:
+                            :...ehog15110205 = Yes: PPh 26 0 (11)
+                                ehog15110205 = No:
+                                :...hog15090587 = Yes: PPh 26 0 (10)
+                                    hog15090587 = No:
+                                    :...ehog15070187 = Yes: PPh 26 0 (9)
+                                        ehog15070187 = No:
+                                        :...ehog15071418 = Yes: PPh 26 0 (9)
+                                            ehog15071418 = No: [S3]
+
+SubTree [S2]
+
+ehog15010148 = Yes: PPh 26 0,15 (4)
+ehog15010148 = No:
+:...ehog15010013 = Yes: PPh 26 0,15 (3)
+    ehog15010013 = No:
+    :...ehog15100004 = Yes: PPh 26 0,15 (3)
+        ehog15100004 = No:
+        :...ehot15010071 = Yes: PPh 26 0,15 (3)
+            ehot15010071 = No:
+            :...ehot15010204 = Yes: PPh 26 0,15 (3)
+                ehot15010204 = No:
+                :...hog15010438 = Yes: PPh 26 0,15 (3)
+                    hog15010438 = No:
+                    :...ehog15010116 = Yes: PPh 26 0,15 (2)
+                        ehog15010116 = No:
+                        :...ehog15010590 = Yes: PPh 26 0,15 (2)
+                            ehog15010590 = No:
+                            :...ehot15100235 = Yes: PPh 26 0,15 (2)
+                                ehot15100235 = No:
+                                :...ehot15100266 = Yes: PPh 26 0,15 (2)
+                                    ehot15100266 = No:
+                                    :...belgacom = Yes: PPh 26 0 (11)
+                                        belgacom = No:
+                                        :...smsgrupp = Yes: PPh 26 0 (8)
+                                            smsgrupp = No:
+                                            :...preferred = Yes: PPh 26 0 (7)
+                                                preferred = No: [S4]
+
+SubTree [S3]
+
+ehog15080449 = Yes: PPh 26 0 (9)
+ehog15080449 = No:
+:...hog15070378 = Yes: PPh 26 0 (9)
+    hog15070378 = No:
+    :...ehog14091128 = Yes: PPh 26 0 (7)
+        ehog14091128 = No:
+        :...ehog15080455 = Yes: PPh 26 0 (6)
+            ehog15080455 = No:
+            :...ehog15110466 = Yes: PPh 26 0 (6)
+                ehog15110466 = No:
+                :...ehot15090471 = Yes: PPh 26 0 (6)
+                    ehot15090471 = No:
+                    :...ehog14091068 = Yes: PPh 26 0 (5)
+                        ehog14091068 = No:
+                        :...ehog15080225 = Yes: PPh 26 0 (5)
+                            ehog15080225 = No:
+                            :...ehog15090498 = Yes: PPh 26 0 (5)
+                                ehog15090498 = No:
+                                :...ehog16070335 = Yes: PPh 26 0 (5)
+                                    ehog16070335 = No:
+                                    :...ehog16080332 = Yes: PPh 26 0 (5)
+                                        ehog16080332 = No:
+                                        :...ehot14090772 = Yes: PPh 26 0 (5)
+                                            ehot14090772 = No: [S5]
+
+SubTree [S4]
+
+appworld = Yes: PPh 26 0 (6)
+appworld = No:
+:...bbm = Yes: PPh 26 0 (6)
+    bbm = No:
+    :...camel = Yes: PPh 26 0 (6)
+        camel = No:
+        :...ehog15070187 = Yes: PPh 26 0 (4)
+            ehog15070187 = No:
+            :...ehog15090523 = Yes: PPh 26 0 (4)
+                ehog15090523 = No:
+                :...ehog14090105 = Yes: PPh 26 0 (3)
+                    ehog14090105 = No:
+                    :...ehog14091068 = Yes: PPh 26 0 (3)
+                        ehog14091068 = No:
+                        :...ehog15080449 = Yes: PPh 26 0 (3)
+                            ehog15080449 = No:
+                            :...ehog15080455 = Yes: PPh 26 0 (3)
+                                ehog15080455 = No:
+                                :...ehog15110381 = Yes: PPh 26 0 (3)
+                                    ehog15110381 = No:
+                                    :...ehog15110466 = Yes: PPh 26 0 (3)
+                                        ehog15110466 = No:
+                                        :...hog15090587 = Yes: PPh 26 0 (3)
+                                            hog15090587 = No:
+                                            :...google = Yes: [S6]
+                                                google = No: [S7]
+
+SubTree [S5]
+
+ehog14090105 = Yes: PPh 26 0 (4)
+ehog14090105 = No:
+:...ehog15080663 = Yes: PPh 26 0 (4)
+    ehog15080663 = No:
+    :...ehog15090337 = Yes: PPh 26 0 (4)
+        ehog15090337 = No:
+        :...ehog15090495 = Yes: PPh 26 0 (4)
+            ehog15090495 = No:
+            :...ehog15090523 = Yes: PPh 26 0 (4)
+                ehog15090523 = No:
+                :...ehog15110216 = Yes: PPh 26 0 (4)
+                    ehog15110216 = No:
+                    :...ehot14090516 = Yes: PPh 26 0 (4)
+                        ehot14090516 = No:
+                        :...ehot15070099 = Yes: PPh 26 0 (4)
+                            ehot15070099 = No:
+                            :...ehot15070311 = Yes: PPh 26 0 (4)
+                                ehot15070311 = No:
+                                :...ehot15090228 = Yes: PPh 26 0 (4)
+                                    ehot15090228 = No:
+                                    :...ehog15080370 = Yes: PPh 26 0 (3)
+                                        ehog15080370 = No:
+                                        :...ehog15080634 = Yes: PPh 26 0 (3)
+                                            ehog15080634 = No: [S8]
+
+SubTree [S6]
+
+digital = No: PPh 26 0 (13)
+digital = Yes: PPh 23 0,02 (2)
+
+SubTree [S7]
+
+ehog14091128 = Yes: PPh 26 0 (2)
+ehog14091128 = No:
+:...ehog15080370 = Yes: PPh 26 0 (2)
+    ehog15080370 = No:
+    :...ehog15080634 = Yes: PPh 26 0 (2)
+        ehog15080634 = No:
+        :...ehog15080663 = Yes: PPh 26 0 (2)
+            ehog15080663 = No:
+            :...ehog15090337 = Yes: PPh 26 0 (2)
+                ehog15090337 = No:
+                :...ehog15090495 = Yes: PPh 26 0 (2)
+                    ehog15090495 = No:
+                    :...ehog15110205 = Yes: PPh 26 0 (2)
+                        ehog15110205 = No:
+                        :...ehot15070311 = Yes: PPh 26 0 (2)
+                            ehot15070311 = No:
+                            :...facilities = Yes:
+                                :...cme = No: PPh 4 0,04 (3)
+                                :   cme = Yes: PPh 4 0,02 (3)
+                                facilities = No:
+                                :...fraud = Yes: PPh 26 0 (12/1)
+                                    fraud = No:
+                                    :...hoc130801 = Yes: PPh 4 0,04 (6/3)
+                                        hoc130801 = No:
+                                        :...landmark = Yes: PPh 4 0,1 (10/3)
+                                            landmark = No:
+                                            :...lease = Yes: [S9]
+                                                lease = No: [S10]
+
+SubTree [S8]
+
+ehog15100622 = Yes: PPh 26 0,15 (18)
+ehog15100622 = No:
+:...hog15010438 = Yes: PPh 26 0,15 (18)
+    hog15010438 = No:
+    :...ehog15080843 = Yes: PPh 26 0,15 (17)
+        ehog15080843 = No:
+        :...ehog15100617 = Yes: PPh 26 0,15 (17)
+            ehog15100617 = No:
+            :...ehot15080396 = Yes: PPh 26 0,15 (17)
+                ehot15080396 = No:
+                :...hog15010883 = Yes: PPh 26 0,15 (17)
+                    hog15010883 = No:
+                    :...hog14010261 = Yes: PPh 26 0,15 (15)
+                        hog14010261 = No:
+                        :...hog14100620 = Yes: PPh 26 0,15 (15)
+                            hog14100620 = No:
+                            :...ehol15010041 = Yes: PPh 26 0,15 (14)
+                                ehol15010041 = No:
+                                :...hog14011182 = Yes: PPh 26 0,15 (14)
+                                    hog14011182 = No:
+                                    :...ehot15100235 = Yes: PPh 26 0,15 (13)
+                                        ehot15100235 = No:
+                                        :...hot15010408 = Yes: PPh 26 0,15 (13)
+                                            hot15010408 = No: [S11]
+
+SubTree [S9]
+
+alihdaya = No: PPh 4 0,1 (7)
+alihdaya = Yes: PPh 23 0,02 (4)
+
+SubTree [S10]
+
+pengeluaran = Yes: PPh 4 0,1 (4/2)
+pengeluaran = No:
+:...bantuan = Yes: PPh 23 0,04 (16/6)
+    bantuan = No:
+    :...place = Yes:
+        :...2016 = No: PPh 22 0,015 (2)
+        :   2016 = Yes: PPh 26 0 (3)
+        place = No:
+        :...raw = Yes: PPh 22 0,015 (128/17)
+            raw = No:
+            :...pajak = Yes:
+                :...pembayaran = No: PPh 23 0,02 (8)
+                :   pembayaran = Yes: PPh 4 0,25 (5/1)
+                pajak = No:
+                :...alat = Yes: PPh 22 0,015 (10/1)
+                    alat = No:
+                    :...printing = Yes:
+                        :...biaya = No: PPh 23 0,04 (4)
+                        :   biaya = Yes: PPh 23 0,02 (3)
+                        printing = No:
+                        :...32k = Yes: PPh 22 0,015 (15)
+                            32k = No:
+                            :...merchandise = Yes:
+                                :...pengiriman = No: PPh 22 0,015 (41/3)
+                                :   pengiriman = Yes: PPh 23 0,02 (3)
+                                merchandise = No:
+                                :...disney = Yes:
+                                    :...content = No: PPh 23 0,02 (3)
+                                    :   content = Yes: PPh 26 0,15 (3)
+                                    disney = No:
+                                    :...hoc140767 = Yes: PPh 22 0,015 (39/4)
+                                        hoc140767 = No:
+                                        :...atk = Yes: PPh 22 0,015 (8)
+                                            atk = No:
+                                            :...loc = Yes: PPh 22 0,015 (7)
+                                                loc = No: [S12]
+
+SubTree [S11]
+
+ehog15010013 = Yes: PPh 26 0,15 (12)
+ehog15010013 = No:
+:...ehog15100004 = Yes: PPh 26 0,15 (12)
+    ehog15100004 = No:
+    :...ehot15010071 = Yes: PPh 26 0,15 (12)
+        ehot15010071 = No:
+        :...hog14101204 = Yes: PPh 26 0,15 (12)
+            hog14101204 = No:
+            :...hog15080967 = Yes: PPh 26 0,15 (12)
+                hog15080967 = No:
+                :...ehog15100692 = Yes: PPh 26 0,15 (11)
+                    ehog15100692 = No:
+                    :...ehot15100305 = Yes: PPh 26 0,15 (11)
+                        ehot15100305 = No:
+                        :...hog15100880 = Yes: PPh 26 0,15 (11)
+                            hog15100880 = No:
+                            :...ehog15010116 = Yes: PPh 26 0,15 (10)
+                                ehog15010116 = No:
+                                :...ehog15010473 = Yes: PPh 26 0,15 (10)
+                                    ehog15010473 = No:
+                                    :...ehot15100314 = Yes: PPh 26 0,15 (10)
+                                        ehot15100314 = No: [S13]
+
+SubTree [S12]
+
+sembako = Yes: PPh 22 0,015 (6)
+sembako = No:
+:...sbg = Yes: PPh 22 0,015 (5)
+    sbg = No:
+    :...sponsorship = Yes:
+        :...acara = Yes: PPh 23 0,04 (5)
+        :   acara = No:
+        :   :...nasional = No: PPh 23 0,02 (40/11)
+        :       nasional = Yes: PPh 23 0,04 (2)
+        sponsorship = No:
+        :...subdir = Yes:
+            :...banking = No: PPh 23 0,02 (10/1)
+            :   banking = Yes: PPh 4 0,1 (7)
+            subdir = No:
+            :...kranggan = Yes:
+                :...2016 = No: PPh 23 0,02 (3/1)
+                :   2016 = Yes: PPh 4 0,1 (3)
+                kranggan = No:
+                :...goods = Yes: PPh 22 0,015 (4)
+                    goods = No:
+                    :...shirt = Yes: PPh 22 0,015 (4)
+                        shirt = No:
+                        :...sewa = Yes:
+                            :...charge = Yes: PPh 4 0,1 (2)
+                            :   charge = No:
+                            :   :...lahan = No: PPh 23 0,02 (980/7)
+                            :       lahan = Yes:
+                            :       :...2015 = No: PPh 4 0,1 (5)
+                            :           2015 = Yes: PPh 23 0,02 (3)
+                            sewa = No:
+                            :...bag = Yes:
+                                :...pengadaan = No: PPh 4 0,1 (2)
+                                :   pengadaan = Yes: PPh 22 0,015 (3)
+                                bag = No:
+                                :...kebutuhan = Yes: PPh 22 0,015 (4/2)
+                                    kebutuhan = No:
+                                    :...postel = Yes:
+                                        :...per = No: PPh 23 0,02 (3)
+                                        :   per = Yes: PPh 4 0,02 (2)
+                                        postel = No:
+                                        :...groceries = Yes: PPh 22 0,015 (10/1)
+                                            groceries = No:
+                                            :...revenue = Yes:
+                                                :...voice = Yes: PPh 26 0 (4)
+                                                :   voice = No: [S14]
+                                                revenue = No:
+                                                :...cleaning = Yes: [S15]
+                                                    cleaning = No:
+                                                    :...rental = Yes: [S16]
+                                                        rental = No:
+                                                        :...listrik = Yes: [S17]
+                                                            listrik = No:
+                                                            :...license = Yes: [S18]
+                                                                license = No: [S19]
+
+SubTree [S13]
+
+ehog15100479 = Yes: PPh 26 0,15 (9)
+ehog15100479 = No:
+:...hot16010094 = Yes: PPh 26 0,15 (9)
+    hot16010094 = No:
+    :...ehog16080073 = Yes: PPh 26 0,15 (8)
+        ehog16080073 = No:
+        :...ehot15010204 = Yes: PPh 26 0,15 (8)
+            ehot15010204 = No:
+            :...hog16010201 = Yes: PPh 26 0,15 (8)
+                hog16010201 = No:
+                :...dan = Yes: PPh 26 0,15 (7)
+                    dan = No:
+                    :...ehog14101211 = Yes: PPh 26 0,15 (7)
+                        ehog14101211 = No:
+                        :...ehog15010104 = Yes: PPh 26 0,15 (7)
+                            ehog15010104 = No:
+                            :...ehol15100034 = Yes: PPh 26 0,15 (7)
+                                ehol15100034 = No:
+                                :...ehot15100009 = Yes: PPh 26 0,15 (7)
+                                    ehot15100009 = No:
+                                    :...ehot15100411 = Yes: PPh 26 0,15 (7)
+                                        ehot15100411 = No:
+                                        :...hog14010570 = Yes: PPh 26 0,15 (7)
+                                            hog14010570 = No: [S20]
+
+SubTree [S14]
+
+connectivity = No: PPh 23 0,02 (447/19)
+connectivity = Yes:
+:...m2m = No: PPh 26 0 (5)
+    m2m = Yes: PPh 23 0,02 (3)
+
+SubTree [S15]
+
+jasa = No: PPh 4 0,1 (5)
+jasa = Yes: PPh 23 0,02 (12)
+
+SubTree [S16]
+
+charge = No: PPh 23 0,02 (8/1)
+charge = Yes: PPh 4 0,1 (2)
+
+SubTree [S17]
+
+center = No: PPh 23 0,02 (4)
+center = Yes: PPh 4 0,1 (2)
+
+SubTree [S18]
+
+core = No: PPh 23 0,02 (12/2)
+core = Yes: PPh 23 0,15 (2)
+
+SubTree [S19]
+
+perkuatan = Yes:
+:...area = Yes: PPh 4 0,03 (2)
+:   area = No:
+:   :...tambah = No: PPh 4 0,04 (17/2)
+:       tambah = Yes: PPh 4 0,02 (2)
+perkuatan = No:
+:...instal = Yes:
+    :...ehop140824a = Yes: PPh 4 0,03 (5)
+    :   ehop140824a = No:
+    :   :...ehop160619 = Yes: PPh 4 0,03 (4)
+    :       ehop160619 = No:
+    :       :...hoc151563 = Yes: PPh 4 0,03 (4)
+    :           hoc151563 = No:
+    :           :...rectifier = Yes: PPh 4 0,03 (4)
+    :               rectifier = No:
+    :               :...ehop140824b = Yes: PPh 4 0,03 (3)
+    :                   ehop140824b = No:
+    :                   :...ehog15060606 = Yes: PPh 4 0,03 (2)
+    :                       ehog15060606 = No:
+    :                       :...reg = Yes: PPh 4 0,03 (2)
+    :                           reg = No:
+    :                           :...sdh = Yes: PPh 23 0,02 (16/9)
+    :                               sdh = No:
+    :                               :...ehop152041 = Yes: PPh 23 0,02 (7)
+    :                                   ehop152041 = No:
+    :                                   :...ehop140957 = Yes: PPh 23 0,02 (6)
+    :                                       ehop140957 = No: [S21]
+    instal = No:
+    :...ehop150588 = Yes: PPh 22 0,015 (18/3)
+        ehop150588 = No:
+        :...simcard = Yes:
+            :...pengadaan = No: PPh 23 0,02 (11/1)
+            :   pengadaan = Yes: PPh 22 0,015 (44/1)
+            simcard = No:
+            :...ehop150564 = Yes: PPh 22 0,015 (2)
+                ehop150564 = No:
+                :...iphone = Yes: PPh 22 0,015 (7/1)
+                    iphone = No:
+                    :...biaya = Yes:
+                        :...operasional = No: PPh 23 0,02 (476/35)
+                        :   operasional = Yes: PPh 23 0,04 (2)
+                        biaya = No:
+                        :...sim = Yes:
+                            :...packaging = Yes: PPh 23 0,02 (54)
+                            :   packaging = No:
+                            :   :...stickering = No: PPh 22 0,015 (84/3)
+                            :       stickering = Yes: PPh 23 0,02 (3)
+                            sim = No:
+                            :...syniverse = Yes: PPh 26 0 (7/2)
+                                syniverse = No:
+                                :...2015 = Yes:
+                                    :...piala = Yes: PPh 22 0,015 (2/1)
+                                    :   piala = No:
+                                    :   :...sgsn = Yes: PPh 4 0,03 (6)
+                                    :       sgsn = No:
+                                    :       :...exp = Yes: PPh 4 0,03 (4)
+                                    :           exp = No: [S22]
+                                    2015 = No:
+                                    :...upoint = Yes: PPh 22 0,015 (2)
+                                        upoint = No:
+                                        :...print = Yes: [S23]
+                                            print = No: [S24]
+
+SubTree [S20]
+
+ehog14010779 = Yes: PPh 26 0,15 (6)
+ehog14010779 = No:
+:...ehog15010148 = Yes: PPh 26 0,15 (6)
+    ehog15010148 = No:
+    :...ehog15010590 = Yes: PPh 26 0,15 (6)
+        ehog15010590 = No:
+        :...ehog15081047 = Yes: PPh 26 0,15 (6)
+            ehog15081047 = No:
+            :...ehog15100051 = Yes: PPh 26 0,15 (6)
+                ehog15100051 = No:
+                :...ehog15100873 = Yes: PPh 26 0,15 (6)
+                    ehog15100873 = No:
+                    :...ehog16010239 = Yes: PPh 26 0,15 (6)
+                        ehog16010239 = No:
+                        :...ehog16080026 = Yes: PPh 26 0,15 (6)
+                            ehog16080026 = No:
+                            :...ehol15080038 = Yes: PPh 26 0,15 (6)
+                                ehol15080038 = No:
+                                :...ehot15100025 = Yes: PPh 26 0,15 (6)
+                                    ehot15100025 = No:
+                                    :...ehot15100266 = Yes: PPh 26 0,15 (6)
+                                        ehot15100266 = No: [S25]
+
+SubTree [S21]
+
+ehop150330 = Yes: PPh 23 0,02 (6)
+ehop150330 = No:
+:...ehop151915 = Yes: PPh 23 0,02 (6)
+    ehop151915 = No:
+    :...ehop152008 = Yes: PPh 23 0,02 (6)
+        ehop152008 = No:
+        :...ehot14080528 = Yes: PPh 23 0,02 (6)
+            ehot14080528 = No:
+            :...ehop150166 = Yes: PPh 23 0,02 (5)
+                ehop150166 = No:
+                :...ehop150599 = Yes: PPh 23 0,02 (5)
+                    ehop150599 = No:
+                    :...ehop150721 = Yes: PPh 23 0,02 (5)
+                        ehop150721 = No:
+                        :...ehop151872 = Yes: PPh 23 0,02 (5)
+                            ehop151872 = No:
+                            :...ehop151967 = No: PPh 22 0,015 (571/228)
+                                ehop151967 = Yes: PPh 23 0,02 (5)
+
+SubTree [S22]
+
+rectifier = Yes: PPh 4 0,03 (11/1)
+rectifier = No:
+:...ehop150837 = Yes: PPh 4 0,03 (3)
+    ehop150837 = No:
+    :...mail = Yes: PPh 4 0,03 (3)
+        mail = No:
+        :...tsa = Yes:
+            :...per = No: PPh 4 0,03 (7)
+            :   per = Yes: PPh 4 0,02 (5/2)
+            tsa = No:
+            :...fots = Yes: PPh 4 0,03 (2)
+                fots = No:
+                :...part = Yes: PPh 4 0,03 (2)
+                    part = No:
+                    :...sulawesi = Yes: PPh 4 0,03 (2)
+                        sulawesi = No:
+                        :...koran = Yes: PPh 22 0,015 (3)
+                            koran = No:
+                            :...hop150050 = Yes: PPh 22 0,015 (2)
+                                hop150050 = No:
+                                :...hypermart = Yes: PPh 22 0,015 (2)
+                                    hypermart = No:
+                                    :...east = No: PPh 23 0,02 (740/73)
+                                        east = Yes: PPh 22 0,015 (16/7)
+
+SubTree [S23]
+
+placement = No: PPh 23 0,04 (10/2)
+placement = Yes: PPh 23 0,02 (13)
+
+SubTree [S24]
+
+reimbursement = Yes: PPh 23 0,02 (157/3)
+reimbursement = No:
+:...2016 = Yes:
+    :...ehop160619 = Yes: PPh 4 0,03 (4)
+    :   ehop160619 = No:
+    :   :...jawa = Yes: PPh 4 0,03 (2)
+    :       jawa = No:
+    :       :...mail = Yes: PPh 4 0,03 (2)
+    :           mail = No:
+    :           :...perform = No: PPh 23 0,02 (389/41)
+    :               perform = Yes: PPh 4 0,03 (6/1)
+    2016 = No:
+    :...digiads = Yes: PPh 22 0,015 (4)
+        digiads = No:
+        :...gptp = Yes: PPh 22 0,015 (3/2)
+            gptp = No:
+            :...inklaring = Yes: PPh 23 0,02 (112)
+                inklaring = No:
+                :...training = Yes:
+                    :...design = No: PPh 23 0,02 (36/2)
+                    :   design = Yes: PPh 23 0,04 (2)
+                    training = No:
+                    :...per = Yes: PPh 23 0,02 (130/6)
+                        per = No:
+                        :...placement = Yes: PPh 23 0,02 (57)
+                            placement = No:
+                            :...galaxy = Yes: PPh 22 0,015 (3)
+                                galaxy = No:
+                                :...pembuatan = Yes: PPh 23 0,02 (60/2)
+                                    pembuatan = No:
+                                    :...buku = Yes: PPh 23 0,04 (3/1)
+                                        buku = No:
+                                        :...form = Yes: PPh 22 0,015 (2)
+                                            form = No:
+                                            :...materi = Yes: PPh 23 0,02 (48)
+                                                materi = No: [S26]
+
+SubTree [S25]
+
+ehog15010459 = Yes: PPh 26 0,15 (5)
+ehog15010459 = No:
+:...ehog15100593 = Yes: PPh 26 0,15 (5)
+    ehog15100593 = No:
+    :...ehog16010537 = Yes: PPh 26 0,15 (5)
+        ehog16010537 = No:
+        :...ehog16100242 = Yes: PPh 26 0,15 (5)
+            ehog16100242 = No:
+            :...ehot14010174 = Yes: PPh 26 0,15 (5)
+                ehot14010174 = No:
+                :...ehot14010502 = Yes: PPh 26 0,15 (5)
+                    ehot14010502 = No:
+                    :...hog14100528 = Yes: PPh 26 0,15 (4)
+                        hog14100528 = No:
+                        :...hog13010828 = No: PPh 4 0,03 (1149/388)
+                            hog13010828 = Yes: PPh 26 0,15 (3)
+
+SubTree [S26]
+
+event = Yes: PPh 23 0,02 (69/7)
+event = No:
+:...sms = Yes:
+    :...and = Yes: PPh 22 0,015 (2/1)
+    :   and = No:
+    :   :...modernisasi = No: PPh 23 0,02 (7/1)
+    :       modernisasi = Yes: PPh 22 0,015 (8/2)
+    sms = No:
+    :...cps = Yes:
+        :...service = No: PPh 22 0,015 (15/3)
+        :   service = Yes: PPh 23 0,02 (5)
+        cps = No:
+        :...fee = Yes:
+            :...access = No: PPh 23 0,02 (21/1)
+            :   access = Yes: PPh 26 0 (3)
+            fee = No:
+            :...packaging = Yes: PPh 23 0,02 (48/2)
+                packaging = No:
+                :...imb = Yes: PPh 23 0,02 (35)
+                    imb = No:
+                    :...billboard = Yes: PPh 23 0,02 (32)
+                        billboard = No:
+                        :...meeting = Yes:
+                            :...ruang = No: PPh 23 0,02 (37/2)
+                            :   ruang = Yes: PPh 22 0,015 (2)
+                            meeting = No:
+                            :...program = Yes:
+                                :...mobile = No: PPh 23 0,02 (41/7)
+                                :   mobile = Yes: PPh 22 0,015 (3/1)
+                                program = No:
+                                :...external = Yes: PPh 22 0,015 (2)
+                                    external = No:
+                                    :...tagihan = Yes: PPh 23 0,02 (56/4)
+                                        tagihan = No:
+                                        :...production = Yes: PPh 23 0,02 (26)
+                                            production = No: [S27]
+
+SubTree [S27]
+
+produksi = Yes: PPh 23 0,02 (32/1)
+produksi = No:
+:...rent = Yes: PPh 23 0,02 (23)
+    rent = No:
+    :...pengiriman = Yes: PPh 23 0,02 (24/1)
+        pengiriman = No:
+        :...device = Yes: PPh 22 0,015 (9)
+            device = No:
+            :...daya = Yes: PPh 23 0,02 (18)
+                daya = No:
+                :...sertifikasi = Yes: PPh 23 0,02 (18)
+                    sertifikasi = No:
+                    :...konsultasi = Yes: PPh 23 0,02 (16)
+                        konsultasi = No:
+                        :...microwave = Yes:
+                            :...ehop151569 = Yes: PPh 23 0,02 (2)
+                            :   ehop151569 = No:
+                            :   :...engineering = No: PPh 22 0,015 (35/8)
+                            :       engineering = Yes: PPh 23 0,02 (2)
+                            microwave = No:
+                            :...world = Yes:
+                                :...digital = No: PPh 23 0,02 (3)
+                                :   digital = Yes: PPh 26 0 (2)
+                                world = No:
+                                :...tsel = Yes: PPh 23 0,02 (38/6)
+                                    tsel = No:
+                                    :...sodexo = Yes: PPh 22 0,015 (4/1)
+                                        sodexo = No:
+                                        :...ehop150955 = Yes: PPh 22 0,015 (4/1)
+                                            ehop150955 = No:
+                                            :...nms = Yes: PPh 22 0,015 (4/1)
+                                                nms = No: [S28]
+
+SubTree [S28]
+
+pcs = Yes: PPh 22 0,015 (5/1)
+pcs = No:
+:...related = Yes: PPh 22 0,015 (6/2)
+    related = No:
+    :...resiliency = Yes: PPh 22 0,015 (6/2)
+        resiliency = No:
+        :...tcash = Yes: PPh 23 0,02 (20/5)
+            tcash = No:
+            :...overblast = Yes: PPh 23 0,02 (10)
+                overblast = No:
+                :...project = Yes: PPh 23 0,02 (20/3)
+                    project = No:
+                    :...jasuka = Yes: PPh 22 0,015 (2)
+                        jasuka = No:
+                        :...crm = Yes: PPh 23 0,02 (10)
+                            crm = No:
+                            :...ehop141153a = Yes: PPh 23 0,02 (9)
+                                ehop141153a = No:
+                                :...access = Yes: PPh 22 0,015 (8/2)
+                                    access = No:
+                                    :...media = Yes: PPh 23 0,02 (17/2)
+                                        media = No:
+                                        :...consultancy = Yes:
+                                            :...design = No: PPh 23 0,02 (7)
+                                            :   design = Yes: PPh 26 0 (2)
+                                            consultancy = No:
+                                            :...drive = Yes: PPh 23 0,02 (2/1)
+                                                drive = No: [S29]
+
+SubTree [S29]
+
+card = Yes: PPh 22 0,015 (4/1)
+card = No:
+:...roaming = Yes: PPh 23 0,02 (2/1)
+    roaming = No:
+    :...reimbursementsewa = Yes: PPh 23 0,02 (8)
+        reimbursementsewa = No:
+        :...vsat = Yes: PPh 23 0,02 (8)
+            vsat = No:
+            :...prog = Yes: PPh 23 0,02 (13/1)
+                prog = No:
+                :...ehop150166 = Yes: PPh 23 0,02 (8)
+                    ehop150166 = No:
+                    :...kartu = Yes:
+                        :...pengadaan = No: PPh 23 0,02 (15/1)
+                        :   pengadaan = Yes: PPh 22 0,015 (6/1)
+                        kartu = No:
+                        :...hoc150896 = Yes: PPh 23 0,02 (7)
+                            hoc150896 = No:
+                            :...jan = Yes: PPh 23 0,02 (8)
+                                jan = No:
+                                :...pelatihan = Yes: PPh 23 0,02 (7)
+                                    pelatihan = No:
+                                    :...plan = Yes: PPh 23 0,02 (8/1)
+                                        plan = No:
+                                        :...infrastruktur = Yes: [S30]
+                                            infrastruktur = No:
+                                            :...insatl = Yes: PPh 22 0,015 (19/8)
+                                                insatl = No:
+                                                :...router = Yes: [S31]
+                                                    router = No:
+                                                    :...mobile = Yes: [S32]
+                                                        mobile = No: [S33]
+
+SubTree [S30]
+
+pembangunan = No: PPh 23 0,02 (37)
+pembangunan = Yes: PPh 4 0,03 (5)
+
+SubTree [S31]
+
+site = No: PPh 23 0,02 (9/2)
+site = Yes: PPh 22 0,015 (2)
+
+SubTree [S32]
+
+pengadaan = No: PPh 23 0,02 (11/3)
+pengadaan = Yes: PPh 22 0,015 (2)
+
+SubTree [S33]
+
+alihdaya = Yes: PPh 23 0,02 (5)
+alihdaya = No:
+:...banner = Yes: PPh 23 0,02 (5)
+    banner = No:
+    :...golf = Yes: PPh 23 0,02 (5)
+        golf = No:
+        :...kerja = Yes: PPh 23 0,02 (5)
+            kerja = No:
+            :...launching = Yes: PPh 23 0,02 (5)
+                launching = No:
+                :...manage = Yes: PPh 23 0,02 (5)
+                    manage = No:
+                    :...reimburshment = Yes: PPh 23 0,02 (5)
+                        reimburshment = No:
+                        :...stickering = Yes: PPh 23 0,02 (5)
+                            stickering = No:
+                            :...video = Yes: PPh 23 0,02 (6)
+                                video = No:
+                                :...platform = Yes: PPh 23 0,02 (13/3)
+                                    platform = No:
+                                    :...bunga = Yes: PPh 23 0,02 (15/4)
+                                        bunga = No:
+                                        :...belanja = Yes: PPh 23 0,02 (4)
+                                            belanja = No:
+                                            :...ipcore = Yes: PPh 23 0,02 (4)
+                                                ipcore = No:
+                                                :...jul = Yes: PPh 23 0,02 (4)
+                                                    jul = No: [S34]
+
+SubTree [S34]
+
+karyawan = Yes: PPh 23 0,02 (4)
+karyawan = No:
+:...langit = Yes: PPh 23 0,02 (5)
+    langit = No:
+    :...legal = Yes: PPh 23 0,02 (6)
+        legal = No:
+        :...qualitative = Yes: PPh 23 0,02 (4)
+            qualitative = No:
+            :...thp = Yes: PPh 23 0,02 (4)
+                thp = No:
+                :...uang = Yes: PPh 23 0,02 (4)
+                    uang = No:
+                    :...internet = Yes: PPh 22 0,015 (2)
+                        internet = No:
+                        :...broadband = Yes: PPh 23 0,02 (4)
+                            broadband = No:
+                            :...ocs = Yes: PPh 23 0,02 (4/1)
+                                ocs = No:
+                                :...fees = Yes: PPh 23 0,02 (3/1)
+                                    fees = No:
+                                    :...direksi = Yes:
+                                        :...untuk = No: PPh 23 0,02 (8)
+                                        :   untuk = Yes: PPh 22 0,015 (2)
+                                        direksi = No:
+                                        :...mitra = Yes: PPh 22 0,015 (6/2)
+                                            mitra = No:
+                                            :...app = Yes: PPh 23 0,02 (3)
+                                                app = No: [S35]
+
+SubTree [S35]
+
+discussion = Yes: PPh 23 0,02 (3)
+discussion = No:
+:...ehop150330 = Yes: PPh 23 0,02 (3)
+    ehop150330 = No:
+    :...oasis = Yes: PPh 23 0,02 (3)
+        oasis = No:
+        :...tau = Yes: PPh 23 0,02 (3)
+            tau = No:
+            :...vynil = Yes: PPh 23 0,02 (6)
+                vynil = No:
+                :...warranty = Yes: PPh 23 0,02 (3)
+                    warranty = No:
+                    :...security = Yes:
+                        :...pengadaan = No: PPh 23 0,02 (3)
+                        :   pengadaan = Yes: PPh 22 0,015 (3)
+                        security = No:
+                        :...akuisisi = Yes: PPh 23 0,02 (2)
+                            akuisisi = No:
+                            :...anugerah = Yes: PPh 23 0,02 (2)
+                                anugerah = No:
+                                :...budget = Yes: PPh 23 0,02 (2)
+                                    budget = No:
+                                    :...cawang = Yes: PPh 23 0,02 (2)
+                                        cawang = No:
+                                        :...control = Yes: PPh 23 0,02 (2)
+                                            control = No: [S36]
+
+SubTree [S36]
+
+supporting = Yes: PPh 22 0,015 (2)
+supporting = No:
+:...creative = Yes: PPh 23 0,02 (3)
+    creative = No:
+    :...ehop130826 = Yes: PPh 23 0,02 (2)
+        ehop130826 = No:
+        :...hoc150617 = Yes: PPh 23 0,02 (2)
+            hoc150617 = No:
+            :...lawyer = Yes: PPh 23 0,02 (2)
+                lawyer = No:
+                :...layanan = Yes: PPh 23 0,02 (2)
+                    layanan = No:
+                    :...mar = Yes: PPh 23 0,02 (2)
+                        mar = No:
+                        :...mux = Yes: PPh 23 0,02 (2)
+                            mux = No:
+                            :...operation = Yes: PPh 23 0,02 (2)
+                                operation = No:
+                                :...perpanjangan = Yes: PPh 23 0,02 (2)
+                                    perpanjangan = No:
+                                    :...photosession = Yes: PPh 23 0,02 (2)
+                                        photosession = No:
+                                        :...remedy = Yes: PPh 23 0,02 (2)
+                                            remedy = No:
+                                            :...sarpen = Yes: PPh 23 0,02 (2)
+                                                sarpen = No:
+                                                :...upg = Yes: PPh 23 0,02 (2)
+                                                    upg = No: [S37]
+
+SubTree [S37]
+
+visual = Yes: PPh 23 0,02 (3)
+visual = No:
+:...workshop = Yes: PPh 23 0,02 (2)
+    workshop = No:
+    :...sdh = Yes: PPh 23 0,02 (5/1)
+        sdh = No:
+        :...enterprise = Yes:
+            :...service = No: PPh 22 0,015 (9/1)
+            :   service = Yes: PPh 23 0,02 (3)
+            enterprise = No:
+            :...hoc150589 = Yes:
+                :...ttc = No: PPh 23 0,02 (3)
+                :   ttc = Yes: PPh 22 0,015 (4/1)
+                hoc150589 = No:
+                :...tap = Yes: PPh 22 0,015 (3/1)
+                    tap = No:
+                    :...corporate = Yes:
+                        :...telkomsel = No: PPh 23 0,02 (2)
+                        :   telkomsel = Yes: PPh 22 0,015 (2)
+                        corporate = No:
+                        :...simpati = Yes: PPh 23 0,02 (5/2)
+                            simpati = No:
+                            :...aplikasi = Yes: PPh 23 0,02 (3/1)
+                                aplikasi = No:
+                                :...business = Yes: PPh 23 0,02 (3/1)
+                                    business = No:
+                                    :...tool = Yes: PPh 23 0,02 (2)
+                                        tool = No:
+                                        :...kegiatan = Yes: PPh 23 0,02 (5/3)
+                                            kegiatan = No: [S38]
+
+SubTree [S38]
+
+bersama = Yes: PPh 22 0,015 (2/1)
+bersama = No:
+:...ehog14090338 = Yes: PPh 22 0,015 (2/1)
+    ehog14090338 = No:
+    :...ehop150587 = Yes: PPh 22 0,015 (2/1)
+        ehop150587 = No:
+        :...lba = Yes: PPh 22 0,015 (2/1)
+            lba = No:
+            :...mulia = Yes: PPh 22 0,015 (2/1)
+                mulia = No:
+                :...tbs = Yes: PPh 22 0,015 (2/1)
+                    tbs = No:
+                    :...with = Yes: PPh 22 0,015 (2/1)
+                        with = No:
+                        :...network = Yes: PPh 23 0,02 (14/6)
+                            network = No:
+                            :...hoc150680 = Yes:
+                                :...antenna = No: PPh 23 0,02 (8/3)
+                                :   antenna = Yes: PPh 22 0,015 (4)
+                                hoc150680 = No:
+                                :...design = Yes: PPh 23 0,02 (8/3)
+                                    design = No:
+                                    :...data = Yes: PPh 23 0,02 (9/3)
+                                        data = No: [S39]
+
+SubTree [S39]
+
+optimization = Yes: PPh 23 0,02 (7/2)
+optimization = No:
+:...ring = Yes: PPh 23 0,02 (6/3)
+    ring = No:
+    :...repeater = Yes:
+        :...remotek = No: PPh 22 0,015 (7/2)
+        :   remotek = Yes: PPh 4 0,03 (6/2)
+        repeater = No:
+        :...pembayaran = Yes:
+            :...sitac = Yes: PPh 4 0,06 (2)
+            :   sitac = No:
+            :   :...cme = No: PPh 23 0,02 (16/8)
+            :       cme = Yes: PPh 4 0,04 (3/1)
+            pembayaran = No:
+            :...konsultan = Yes:
+                :...management = No: PPh 23 0,02 (8/1)
+                :   management = Yes: PPh 4 0,04 (2)
+                konsultan = No:
+                :...ibc = Yes:
+                    :...antenna = Yes: PPh 22 0,015 (14/6)
+                    :   antenna = No:
+                    :   :...sitac = No: PPh 4 0,04 (23/8)
+                    :       sitac = Yes:
+                    :       :...site = No: PPh 4 0,06 (10/2)
+                    :           site = Yes: PPh 4 0,04 (6/1)
+                    ibc = No:
+                    :...telkomsel = Yes:
+                        :...dan = Yes: PPh 4 0,03 (4/1)
+                        :   dan = No:
+                        :   :...site = No: PPh 23 0,02 (38/4)
+                        :       site = Yes: PPh 4 0,03 (2)
+                        telkomsel = No:
+                        :...reengineering = Yes: PPh 4 0,03 (5/3)
+                            reengineering = No:
+                            :...survey = Yes: PPh 4 0,04 (5/2)
+                                survey = No:
+                                :...ehog15080450a = Yes: PPh 4 0,04 (14)
+                                    ehog15080450a = No:
+                                    :...hog15090588 = Yes: PPh 4 0,04 (14)
+                                        hog15090588 = No:
+                                        :...ehot15080505 = Yes: PPh 4 0,04 (13)
+                                            ehot15080505 = No: [S40]
+
+SubTree [S40]
+
+ehog15070188a = Yes: PPh 4 0,04 (12)
+ehog15070188a = No:
+:...hog15070377 = Yes: PPh 4 0,04 (12)
+    hog15070377 = No:
+    :...ehog15110204 = Yes: PPh 4 0,04 (11)
+        ehog15110204 = No:
+        :...ehog15110206a = Yes: PPh 4 0,04 (11)
+            ehog15110206a = No:
+            :...ehol15070094a = Yes: PPh 4 0,04 (11)
+                ehol15070094a = No:
+                :...ehog15070560a = Yes: PPh 4 0,04 (10)
+                    ehog15070560a = No:
+                    :...ehog15080371a = Yes: PPh 4 0,04 (10)
+                        ehog15080371a = No:
+                        :...sis = Yes: PPh 4 0,04 (10)
+                            sis = No:
+                            :...ehog15080456a = Yes: PPh 4 0,04 (9)
+                                ehog15080456a = No:
+                                :...ehog15080635a = Yes: PPh 4 0,04 (9)
+                                    ehog15080635a = No:
+                                    :...ehog15080664 = Yes: PPh 4 0,04 (9)
+                                        ehog15080664 = No:
+                                        :...ehog15110465 = Yes: PPh 4 0,04 (9)
+                                            ehog15110465 = No: [S41]
+
+SubTree [S41]
+
+ehot16070209a = Yes: PPh 4 0,04 (9)
+ehot16070209a = No:
+:...hog15070379a = Yes: PPh 4 0,04 (9)
+    hog15070379a = No:
+    :...hog15070379b = Yes: PPh 4 0,04 (9)
+        hog15070379b = No:
+        :...hog16070325a = Yes: PPh 4 0,04 (9)
+            hog16070325a = No:
+            :...ehog14091069a = Yes: PPh 4 0,04 (8)
+                ehog14091069a = No:
+                :...ehog15070186 = Yes: PPh 4 0,04 (8)
+                    ehog15070186 = No:
+                    :...ehog15090497 = Yes: PPh 4 0,04 (8)
+                        ehog15090497 = No:
+                        :...ehog15110217 = Yes: PPh 4 0,04 (8)
+                            ehog15110217 = No:
+                            :...ehog15110382a = Yes: PPh 4 0,04 (8)
+                                ehog15110382a = No:
+                                :...ehol15090025a = Yes: PPh 4 0,04 (8)
+                                    ehol15090025a = No:
+                                    :...ehog15070558 = Yes: PPh 4 0,04 (7)
+                                        ehog15070558 = No: [S42]
+
+SubTree [S42]
+
+ehog15080371b = Yes: PPh 4 0,04 (7)
+ehog15080371b = No:
+:...ehog15080450b = Yes: PPh 4 0,04 (7)
+    ehog15080450b = No:
+    :...ehog15080662 = Yes: PPh 4 0,04 (7)
+        ehog15080662 = No:
+        :...ehog15080723 = Yes: PPh 4 0,04 (7)
+            ehog15080723 = No:
+            :...ehog15090338 = Yes: PPh 4 0,04 (7)
+                ehog15090338 = No:
+                :...ehog15090360 = Yes: PPh 4 0,04 (7)
+                    ehog15090360 = No:
+                    :...ehog15090362a = Yes: PPh 4 0,04 (7)
+                        ehog15090362a = No:
+                        :...ehog15090496 = Yes: PPh 4 0,04 (7)
+                            ehog15090496 = No:
+                            :...ehog15110206b = Yes: PPh 4 0,04 (7)
+                                ehog15110206b = No:
+                                :...ehog15110382b = Yes: PPh 4 0,04 (7)
+                                    ehog15110382b = No:
+                                    :...ehot14090773b = Yes: PPh 4 0,04 (7)
+                                        ehot14090773b = No:
+                                        :...ehot15070312 = Yes: PPh 4 0,04 (7)
+                                            ehot15070312 = No: [S43]
+
+SubTree [S43]
+
+ehot15070646a = Yes: PPh 4 0,04 (7)
+ehot15070646a = No:
+:...ehot16080211a = Yes: PPh 4 0,04 (7)
+    ehot16080211a = No:
+    :...ehog14091069b = Yes: PPh 4 0,04 (6)
+        ehog14091069b = No:
+        :...ehog14091129a = Yes: PPh 4 0,04 (6)
+            ehog14091129a = No:
+            :...ehog14091129b = Yes: PPh 4 0,04 (6)
+                ehog14091129b = No:
+                :...ehog15070188b = Yes: PPh 4 0,04 (6)
+                    ehog15070188b = No:
+                    :...ehog15070563 = Yes: PPh 4 0,04 (6)
+                        ehog15070563 = No:
+                        :...ehog15071466a = Yes: PPh 4 0,04 (6)
+                            ehog15071466a = No:
+                            :...ehog15080448 = Yes: PPh 4 0,04 (6)
+                                ehog15080448 = No:
+                                :...ehog15080635b = Yes: PPh 4 0,04 (6)
+                                    ehog15080635b = No:
+                                    :...ehog15081257a = Yes: PPh 4 0,04 (6)
+                                        ehog15081257a = No: [S44]
+
+SubTree [S44]
+
+ehog15090362b = Yes: PPh 4 0,04 (6)
+ehog15090362b = No:
+:...ehog15090499 = Yes: PPh 4 0,04 (6)
+    ehog15090499 = No:
+    :...ehog15110380 = Yes: PPh 4 0,04 (6)
+        ehog15110380 = No:
+        :...ehog15111014a = Yes: PPh 4 0,04 (6)
+            ehog15111014a = No:
+            :...ehog15111014b = Yes: PPh 4 0,04 (6)
+                ehog15111014b = No:
+                :...ehog16080333a = Yes: PPh 4 0,04 (6)
+                    ehog16080333a = No:
+                    :...ehot14090770a = Yes: PPh 4 0,04 (6)
+                        ehot14090770a = No:
+                        :...ehot15070436a = Yes: PPh 4 0,04 (6)
+                            ehot15070436a = No:
+                            :...ehot15070591a = Yes: PPh 4 0,04 (6)
+                                ehot15070591a = No:
+                                :...ehot15080608 = Yes: PPh 4 0,04 (6)
+                                    ehot15080608 = No:
+                                    :...ehot15110255b = Yes: PPh 4 0,04 (6)
+                                        ehot15110255b = No:
+                                        :...hog14090301a = Yes: PPh 4 0,04 (6)
+                                            hog14090301a = No: [S45]
+
+SubTree [S45]
+
+ehog15070601 = Yes: PPh 4 0,04 (5)
+ehog15070601 = No:
+:...ehog15070626 = Yes: PPh 4 0,04 (5)
+    ehog15070626 = No:
+    :...ehog15080224 = Yes: PPh 4 0,04 (5)
+        ehog15080224 = No:
+        :...ehog15080295b = Yes: PPh 4 0,04 (5)
+            ehog15080295b = No:
+            :...ehog15080456b = Yes: PPh 4 0,04 (5)
+                ehog15080456b = No:
+                :...ehog15091192 = Yes: PPh 4 0,04 (5)
+                    ehog15091192 = No:
+                    :...ehog15110215 = Yes: PPh 4 0,04 (5)
+                        ehog15110215 = No:
+                        :...ehog15110467a = Yes: PPh 4 0,04 (5)
+                            ehog15110467a = No:
+                            :...ehog16070320 = Yes: PPh 4 0,04 (5)
+                                ehog16070320 = No:
+                                :...ehog16070322a = Yes: PPh 4 0,04 (5)
+                                    ehog16070322a = No:
+                                    :...ehog16080330 = Yes: PPh 4 0,04 (5)
+                                        ehog16080330 = No:
+                                        :...ehop151812 = Yes: PPh 4 0,04 (5)
+                                            ehop151812 = No: [S46]
+
+SubTree [S46]
+
+ehot14090771 = Yes: PPh 4 0,04 (5)
+ehot14090771 = No:
+:...ehot14090773a = Yes: PPh 4 0,04 (5)
+    ehot14090773a = No:
+    :...ehot15070646b = Yes: PPh 4 0,04 (5)
+        ehot15070646b = No:
+        :...ehot15070658a = Yes: PPh 4 0,04 (5)
+            ehot15070658a = No:
+            :...ehot15080112 = Yes: PPh 4 0,04 (5)
+                ehot15080112 = No:
+                :...ehot15080274 = Yes: PPh 4 0,04 (5)
+                    ehot15080274 = No:
+                    :...ehot15090224 = Yes: PPh 4 0,04 (5)
+                        ehot15090224 = No:
+                        :...ehot15090229 = Yes: PPh 4 0,04 (5)
+                            ehot15090229 = No:
+                            :...ehot15110253 = Yes: PPh 4 0,04 (5)
+                                ehot15110253 = No:
+                                :...hoc140979 = Yes: PPh 4 0,04 (5)
+                                    hoc140979 = No:
+                                    :...hoc141131 = Yes: PPh 4 0,04 (5)
+                                        hoc141131 = No:
+                                        :...hog14090301b = Yes: PPh 4 0,04 (5)
+                                            hog14090301b = No:
+                                            :...loop = Yes: PPh 23 0,02 (10/3)
+                                                loop = No: [S47]
+
+SubTree [S47]
+
+collo = Yes: PPh 22 0,015 (4/2)
+collo = No:
+:...air = Yes: PPh 23 0,02 (5/3)
+    air = No:
+    :...implementasi = Yes: PPh 23 0,02 (5/3)
+        implementasi = No:
+        :...pre = Yes:
+            :...plaza = Yes: PPh 4 0,04 (5/2)
+            :   plaza = No:
+            :   :...service = No: PPh 23 0,02 (16/7)
+            :       service = Yes: PPh 4 0,04 (2)
+            pre = No:
+            :...praim = Yes: PPh 4 0,04 (5/3)
+                praim = No:
+                :...backbone = Yes: PPh 4 0,03 (4/2)
+                    backbone = No:
+                    :...engineering = Yes:
+                        :...fots = No: PPh 23 0,02 (6/2)
+                        :   fots = Yes: PPh 4 0,03 (4)
+                        engineering = No:
+                        :...modernization = Yes:
+                            :...sites = Yes: PPh 4 0,03 (4)
+                            :   sites = No: PPh 23 0,02 (3/1)
+                            modernization = No:
+                            :...bts = Yes: PPh 23 0,02 (13/8)
+                                bts = No:
+                                :...servie = Yes: PPh 4 0,04 (7/2)
+                                    servie = No:
+                                    :...hoc141636 = Yes: PPh 4 0,04 (32/14)
+                                        hoc141636 = No:
+                                        :...hardware = No:
+                                            :...moto = Yes:
+                                            :   :...100 = Yes: PPh 4 0,04 (14/6)
+                                            :   :   100 = No: PPh 4 0,03 (12/3)
+                                            :   moto = No:
+                                            :   :...utk = No: PPh 4 0,03 (7815/891)
+                                            :       utk = Yes: [S48]
+                                            hardware = Yes:
+                                            :...for = Yes: PPh 4 0,03 (34/1)
+                                                for = No:
+                                                :...sites = No: PPh 4 0,03 (451/117)
+                                                    sites = Yes: [S49]
+
+SubTree [S48]
+
+svc = Yes: PPh 23 0,02 (9)
+svc = No:
+:...power = No: PPh 22 0,015 (45/10)
+    power = Yes: PPh 4 0,03 (254)
+
+SubTree [S49]
+
+hog15050031 = Yes: PPh 4 0,03 (6)
+hog15050031 = No:
+:...ehog15030422 = Yes: PPh 4 0,03 (4)
+    ehog15030422 = No:
+    :...ehog15060643 = Yes: PPh 4 0,03 (4)
+        ehog15060643 = No:
+        :...ehot15060298 = Yes: PPh 4 0,03 (4)
+            ehot15060298 = No:
+            :...hog15050191 = No: PPh 4 0,04 (297/119)
+                hog15050191 = Yes: PPh 4 0,03 (4)
+
+
+Evaluation on training data (18410 cases):
+
+	    Decision Tree   
+	  ----------------  
+	  Size      Errors  
+
+	   552 2290(12.4%)   <<
+
+
+	   (a)   (b)   (c)   (d)   (e)   (f)   (g)   (h)   (i)   (j)   (k)   (l)   (m)   (n)   (o)   (p)    <-classified as
+	  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----
+	     4                                                                                              (a): class PPh 15 0,012
+	         989         154                 1     1                      55     3           3          (b): class PPh 22 0,015
+	           3           2                                                                            (c): class PPh 22 0,03
+	         300        4777    10           2                       2   106     3     1     1     1    (d): class PPh 23 0,02
+	           1          37    44                 1                       3                 1          (e): class PPh 23 0,04
+	           1           1           2                                                                (f): class PPh 23 0,15
+	                      57               318                           247                            (g): class PPh 26 0
+	                                               3                       1                            (h): class PPh 26 0,1
+	                       5                       1   535               205                            (i): class PPh 26 0,15
+	                       3                                               2                            (j): class PPh 26 0,2
+	           1           5                                        33     2     2                      (k): class PPh 4 0,02
+	          32          49                                            8441   151                      (l): class PPh 4 0,03
+	           2          18                       1                 2   779   863     1     1          (m): class PPh 4 0,04
+	                       1                                               7     4    10                (n): class PPh 4 0,06
+	           1          13                                               3                93          (o): class PPh 4 0,1
+	           1                                                                                   8    (p): class PPh 4 0,25
+
+
+	Attribute usage:
+
+	100.00%	charges
+	 99.82%	tempat
+	 99.78%	hoc151074
+	 99.74%	hoc130911
+	 99.72%	hoc151089
+	 99.69%	motorcycle
+	 99.66%	overtime
+	 99.64%	space
+	 99.61%	dibayarkan
+	 99.59%	hoc131476
+	 99.54%	pesta
+	 99.50%	book
+	 99.47%	akbar
+	 99.45%	software
+	 98.86%	ehog15110381
+	 98.73%	ehog15070187
+	 98.64%	hog15090587
+	 98.56%	ehog15080449
+	 98.54%	ehog15110205
+	 98.40%	ehog15080455
+	 98.34%	ehog14091068
+	 98.34%	ehog15110466
+	 98.29%	ehog14091128
+	 98.19%	ehog14090105
+	 98.19%	hog15010438
+	 98.13%	ehog15090523
+	 97.94%	ehog15080663
+	 97.91%	ehog15090337
+	 97.88%	ehog15090495
+	 97.77%	ehog15080370
+	 97.75%	ehot15070311
+	 97.74%	ehog15080634
+	 97.37%	ehot15100235
+	 97.33%	ehog15010013
+	 97.25%	ehog15100004
+	 97.16%	ehot15010071
+	 96.74%	ehog15010116
+	 96.47%	ehot15010204
+	 96.15%	ehog15010148
+	 96.01%	ehog15010590
+	 95.73%	ehot15100266
+	 89.24%	belgacom
+	 89.18%	smsgrupp
+	 89.14%	preferred
+	 89.10%	appworld
+	 89.07%	bbm
+	 89.03%	camel
+	 88.84%	google
+	 88.67%	facilities
+	 88.64%	fraud
+	 88.58%	hoc130801
+	 88.54%	landmark
+	 88.49%	lease
+	 88.43%	pengeluaran
+	 88.41%	bantuan
+	 88.32%	place
+	 88.29%	raw
+	 88.13%	license
+	 87.60%	pajak
+	 87.53%	alat
+	 87.47%	printing
+	 87.44%	32k
+	 87.35%	merchandise
+	 87.12%	disney
+	 87.08%	hoc140767
+	 86.87%	atk
+	 86.83%	loc
+	 86.79%	sembako
+	 86.76%	sbg
+	 86.73%	sponsorship
+	 86.47%	subdir
+	 86.38%	kranggan
+	 86.35%	goods
+	 86.33%	shirt
+	 86.31%	sewa
+	 80.93%	bag
+	 80.90%	kebutuhan
+	 80.88%	postel
+	 80.85%	groceries
+	 80.80%	revenue
+	 78.31%	cleaning
+	 78.21%	rental
+	 78.16%	listrik
+	 78.05%	perkuatan
+	 77.94%	instal
+	 74.28%	ehop150588
+	 74.18%	simcard
+	 73.88%	ehop150564
+	 73.87%	biaya
+	 73.87%	iphone
+	 71.24%	sim
+	 70.52%	2015
+	 70.47%	syniverse
+	 66.03%	upoint
+	 66.02%	print
+	 65.90%	reimbursement
+	 65.11%	2016
+	 63.42%	pembayaran
+	 62.86%	digiads
+	 62.84%	gptp
+	 62.82%	inklaring
+	 62.21%	training
+	 62.10%	per
+	 61.42%	placement
+	 60.99%	galaxy
+	 60.97%	pembuatan
+	 60.65%	buku
+	 60.63%	form
+	 60.62%	materi
+	 60.42%	packaging
+	 60.36%	event
+	 59.98%	sms
+	 59.89%	cps
+	 59.78%	fee
+	 59.39%	imb
+	 59.22%	ehop150166
+	 59.20%	billboard
+	 59.03%	meeting
+	 58.82%	program
+	 58.64%	hardware
+	 58.58%	external
+	 58.57%	tagihan
+	 58.26%	production
+	 58.12%	produksi
+	 58.06%	pengiriman
+	 57.95%	rent
+	 57.77%	ehop150330
+	 57.69%	device
+	 57.64%	daya
+	 57.56%	sdh
+	 57.54%	sertifikasi
+	 57.45%	konsultasi
+	 57.36%	microwave
+	 57.15%	world
+	 57.12%	tsel
+	 56.91%	sodexo
+	 56.89%	ehop150955
+	 56.87%	nms
+	 56.85%	pcs
+	 56.82%	related
+	 56.79%	resiliency
+	 56.76%	tcash
+	 56.65%	overblast
+	 56.59%	project
+	 56.50%	access
+	 56.49%	jasuka
+	 56.47%	crm
+	 56.42%	ehop141153a
+	 56.33%	media
+	 56.24%	consultancy
+	 56.19%	drive
+	 56.18%	card
+	 56.15%	roaming
+	 56.14%	reimbursementsewa
+	 56.10%	vsat
+	 56.06%	prog
+	 55.94%	kartu
+	 55.83%	hoc150896
+	 55.79%	jan
+	 55.75%	pelatihan
+	 55.71%	plan
+	 55.67%	infrastruktur
+	 55.51%	mobile
+	 55.49%	stickering
+	 55.44%	insatl
+	 55.33%	router
+	 55.26%	alihdaya
+	 55.18%	banner
+	 55.15%	golf
+	 55.12%	kerja
+	 55.10%	launching
+	 55.07%	manage
+	 55.04%	reimburshment
+	 54.99%	video
+	 54.95%	platform
+	 54.88%	bunga
+	 54.80%	belanja
+	 54.78%	ipcore
+	 54.76%	jul
+	 54.74%	karyawan
+	 54.71%	langit
+	 54.69%	legal
+	 54.66%	qualitative
+	 54.63%	thp
+	 54.61%	uang
+	 54.59%	internet
+	 54.58%	broadband
+	 54.56%	ocs
+	 54.54%	fees
+	 54.52%	direksi
+	 54.46%	mitra
+	 54.43%	app
+	 54.42%	discussion
+	 54.38%	oasis
+	 54.37%	tau
+	 54.35%	vynil
+	 54.32%	warranty
+	 54.30%	security
+	 54.27%	akuisisi
+	 54.26%	anugerah
+	 54.25%	budget
+	 54.24%	cawang
+	 54.23%	control
+	 54.22%	supporting
+	 54.20%	creative
+	 54.19%	ehop130826
+	 54.18%	hoc150617
+	 54.17%	lawyer
+	 54.16%	layanan
+	 54.14%	mar
+	 54.13%	mux
+	 54.12%	operation
+	 54.11%	perpanjangan
+	 54.10%	photosession
+	 54.09%	remedy
+	 54.08%	sarpen
+	 54.07%	upg
+	 54.06%	visual
+	 54.04%	workshop
+	 54.00%	enterprise
+	 53.94%	hoc150589
+	 53.90%	tap
+	 53.88%	corporate
+	 53.86%	simpati
+	 53.83%	aplikasi
+	 53.82%	business
+	 53.80%	design
+	 53.80%	tool
+	 53.79%	kegiatan
+	 53.76%	bersama
+	 53.75%	ehog14090338
+	 53.74%	ehop150587
+	 53.73%	lba
+	 53.72%	mulia
+	 53.71%	tbs
+	 53.70%	with
+	 53.69%	network
+	 53.61%	hoc150680
+	 53.50%	data
+	 53.45%	optimization
+	 53.42%	ring
+	 53.38%	repeater
+	 53.20%	konsultan
+	 53.15%	ibc
+	 52.88%	telkomsel
+	 52.62%	reengineering
+	 52.59%	survey
+	 52.56%	ehog15080450a
+	 52.49%	hog15090588
+	 52.41%	ehot15080505
+	 52.34%	ehog15070188a
+	 52.28%	hog15070377
+	 52.21%	ehog15110204
+	 52.15%	ehog15110206a
+	 52.09%	ehol15070094a
+	 52.03%	ehog15070560a
+	 51.98%	ehog15080371a
+	 51.92%	sis
+	 51.87%	ehog15080456a
+	 51.82%	ehog15080635a
+	 51.77%	ehog15080664
+	 51.72%	ehog15110465
+	 51.67%	ehot16070209a
+	 51.62%	hog15070379a
+	 51.58%	hog15070379b
+	 51.53%	hog16070325a
+	 51.48%	ehog14091069a
+	 51.43%	ehog15070186
+	 51.39%	ehog15090497
+	 51.35%	ehog15110217
+	 51.30%	ehog15110382a
+	 51.26%	ehol15090025a
+	 51.22%	ehog15070558
+	 51.18%	ehog15080371b
+	 51.14%	ehog15080450b
+	 51.10%	ehog15080662
+	 51.06%	ehog15080723
+	 51.03%	ehog15090338
+	 50.99%	ehog15090360
+	 50.95%	ehog15090362a
+	 50.91%	ehog15090496
+	 50.87%	ehog15110206b
+	 50.84%	ehog15110382b
+	 50.80%	ehot14090773b
+	 50.76%	ehot15070312
+	 50.72%	ehot15070646a
+	 50.68%	ehot16080211a
+	 50.65%	ehog14091069b
+	 50.61%	ehog14091129a
+	 50.58%	ehog14091129b
+	 50.55%	ehog15070188b
+	 50.52%	ehog15070563
+	 50.48%	ehog15071466a
+	 50.45%	ehog15080448
+	 50.42%	ehog15080635b
+	 50.39%	ehog15081257a
+	 50.35%	ehog15090362b
+	 50.32%	ehog15090499
+	 50.29%	ehog15110380
+	 50.26%	ehog15111014a
+	 50.22%	ehog15111014b
+	 50.19%	ehog16080333a
+	 50.16%	ehot14090770a
+	 50.12%	ehot15070436a
+	 50.09%	ehot15070591a
+	 50.06%	ehot15080608
+	 50.03%	ehot15110255b
+	 49.99%	hog14090301a
+	 49.96%	ehog15070601
+	 49.93%	ehog15070626
+	 49.91%	ehog15080224
+	 49.88%	ehog15080295b
+	 49.85%	ehog15080456b
+	 49.83%	ehog15091192
+	 49.80%	ehog15110215
+	 49.77%	ehog15110467a
+	 49.74%	ehog16070320
+	 49.72%	ehog16070322a
+	 49.69%	ehog16080330
+	 49.66%	ehop151812
+	 49.64%	ehot14090771
+	 49.61%	ehot14090773a
+	 49.58%	ehot15070646b
+	 49.55%	ehot15070658a
+	 49.53%	ehot15080112
+	 49.50%	ehot15080274
+	 49.47%	ehot15090224
+	 49.45%	ehot15090229
+	 49.42%	ehot15110253
+	 49.39%	hoc140979
+	 49.36%	hoc141131
+	 49.34%	hog14090301b
+	 49.31%	loop
+	 49.26%	collo
+	 49.23%	air
+	 49.21%	engineering
+	 49.21%	implementasi
+	 49.18%	pre
+	 49.05%	praim
+	 49.03%	backbone
+	 48.95%	modernization
+	 48.91%	bts
+	 48.84%	servie
+	 48.80%	hoc141636
+	 44.26%	moto
+	 44.12%	utk
+	 10.08%	and
+	 10.06%	residential
+	 10.02%	campaign
+	  9.90%	ehog15090361
+	  9.68%	ehog15071418
+	  9.58%	hog15070378
+	  9.43%	ehot15090471
+	  9.37%	ehog15080225
+	  9.34%	ehog15090498
+	  9.32%	ehog16070335
+	  9.29%	ehog16080332
+	  9.26%	ehot14090772
+	  9.13%	ehog15110216
+	  9.10%	ehot14090516
+	  9.08%	ehot15070099
+	  9.04%	ehot15090228
+	  8.98%	ehog15100622
+	  8.79%	ehog15080843
+	  8.70%	ehog15100617
+	  8.60%	ehot15080396
+	  8.51%	hog15010883
+	  8.42%	hog14010261
+	  8.34%	hog14100620
+	  8.26%	ehol15010041
+	  8.18%	hog14011182
+	  8.03%	hot15010408
+	  7.92%	rectifier
+	  7.77%	hog14101204
+	  7.70%	hog15080967
+	  7.64%	ehog15100692
+	  7.58%	ehot15100305
+	  7.52%	hog15100880
+	  7.40%	ehog15010473
+	  7.35%	ehot15100314
+	  7.31%	dan
+	  7.29%	ehog15100479
+	  7.25%	hot16010094
+	  7.20%	ehog16080073
+	  7.11%	hog16010201
+	  7.03%	ehog14101211
+	  6.99%	ehog15010104
+	  6.95%	ehol15100034
+	  6.91%	ehot15100009
+	  6.88%	ehot15100411
+	  6.84%	hog14010570
+	  6.80%	ehog14010779
+	  6.70%	ehog15081047
+	  6.67%	ehog15100051
+	  6.64%	ehog15100873
+	  6.61%	ehog16010239
+	  6.57%	ehog16080026
+	  6.54%	ehol15080038
+	  6.51%	ehot15100025
+	  6.44%	ehog15010459
+	  6.41%	ehog15100593
+	  6.41%	mail
+	  6.39%	ehog16010537
+	  6.36%	ehog16100242
+	  6.33%	ehot14010174
+	  6.31%	ehot14010502
+	  6.28%	hog14100528
+	  6.26%	hog13010828
+	  5.82%	ehop160619
+	  5.43%	charge
+	  5.37%	lahan
+	  4.40%	piala
+	  4.39%	sgsn
+	  4.37%	for
+	  4.36%	exp
+	  4.27%	ehop150837
+	  4.24%	tsa
+	  4.23%	fots
+	  4.22%	sites
+	  4.17%	part
+	  4.16%	sulawesi
+	  4.14%	koran
+	  4.13%	hop150050
+	  4.12%	hypermart
+	  4.11%	east
+	  3.66%	ehop140824a
+	  3.61%	hoc151563
+	  3.56%	ehop140824b
+	  3.55%	ehog15060606
+	  3.54%	reg
+	  3.44%	ehop152041
+	  3.40%	ehop140957
+	  3.34%	ehop151915
+	  3.30%	ehop152008
+	  3.27%	ehot14080528
+	  3.21%	ehop150599
+	  3.18%	ehop150721
+	  3.16%	ehop151872
+	  3.13%	ehop151967
+	  2.60%	operasional
+	  2.49%	voice
+	  2.47%	connectivity
+	  2.17%	jawa
+	  2.15%	perform
+	  1.73%	hog15050031
+	  1.70%	ehog15030422
+	  1.68%	ehog15060643
+	  1.67%	svc
+	  1.66%	ehot15060298
+	  1.63%	hog15050191
+	  1.62%	power
+	  0.59%	pengadaan
+	  0.36%	site
+	  0.35%	antenna
+	  0.33%	sitac
+	  0.27%	service
+	  0.26%	acara
+	  0.23%	nasional
+	  0.23%	pembangunan
+	  0.21%	ehop151569
+	  0.21%	ruang
+	  0.14%	100
+	  0.14%	cme
+	  0.12%	plaza
+	  0.11%	area
+	  0.11%	digital
+	  0.10%	tambah
+	  0.09%	banking
+	  0.09%	jasa
+	  0.08%	modernisasi
+	  0.08%	core
+	  0.07%	remotek
+	  0.05%	management
+	  0.05%	untuk
+	  0.04%	m2m
+	  0.04%	ttc
+	  0.03%	center
+	  0.03%	content
+
+
+Time: 1928.5 secs
+
