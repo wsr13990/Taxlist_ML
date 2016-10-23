@@ -71,10 +71,15 @@ train_class <- as.factor(as.matrix(taxlist_train["Classification"]))
 #crossval_class <- as.factor(as.matrix(taxlist_crossval["Classification"]))
 #test_class <- as.factor(as.matrix(taxlist_test["Classification"]))
 
-tree_model <- train(train_matrix, train_class, method = "C5.0")
-rule_model <- train(train_matrix, train_class, method = "JRip")
+train_dtm <- as.data.frame(train_dtm)
+tree_model <- C5.0(train_dtm, trials = 10, train_class)
+
+
+#tree_model <- train(train_matrix, train_class, method = "C5.0")
+#rule_model <- train(train_matrix, train_class, method = "JRip")
+
+summary(tree_model)
 
 C5.0.graphviz(c50_model, "c50_model.txt")
-summary(ripper_model)
 ripper_model
 #write(capture.output(summary(taxlist_model)), "c50model.txt")
