@@ -31,8 +31,8 @@ convert_count <- function(x){
   x <- ifelse(x, "Yes", "No")
 }
 
-taxlist <- read.csv("D:/Taxlist_ML/Taxlist.csv", header = TRUE, sep=",")
-taxlist <- taxlist[taxlist$Nama.Vendor %in% c("Westindo Esa Perkasa"),]
+taxlist <- read.csv("C:/Taxlist_ML/Taxlist.csv", header = TRUE, sep=",")
+taxlist <- taxlist[taxlist$Nama.Vendor %in% c("Huawei Tech Investment"),]
 # taxlist <- taxlist[taxlist$Nama.Vendor %in% c(
 #   "Huawei Tech Investment",
 #   "Ericsson Indonesia",
@@ -73,12 +73,12 @@ train_class <- as.factor(as.matrix(taxlist_train["Classification"]))
 #test_class <- as.factor(as.matrix(taxlist_test["Classification"]))
 
 train_dtm <- as.data.frame(train_dtm)
-Westindo <- C5.0(train_dtm, train_class)
+Huawei <- C5.0(train_dtm, trials = 5, train_class, rules = TRUE)
 
 #tree_model <- train(train_matrix, train_class, method = "C5.0")
 #rule_model <- train(train_matrix, train_class, method = "JRip")
 
-summary(Westindo)
+summary(Huawei)
 
 #C5.0.graphviz(c50_model, "c50_model.txt")
 #ripper_model
